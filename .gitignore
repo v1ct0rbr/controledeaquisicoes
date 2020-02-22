@@ -2,7 +2,7 @@
 /nbproject
 
 # exclude everything
-dist/*
+/dist/*
 
 # exception to the rule
-!dist/.gitkeep
+!/dist/.gitkeep
