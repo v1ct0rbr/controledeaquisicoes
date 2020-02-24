@@ -7,11 +7,7 @@
         <class>br.gov.pb.der.modelo.ItemNota</class>
         <class>br.gov.pb.der.modelo.Aquisicao</class>
         <properties>
-            <!--            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/NotaFiscalDER"/>
-            -->
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-            <!--            <property name="javax.persistence.jdbc.user" value="notafiscal"/>
-            <property name="javax.persistence.jdbc.password" value="ditc.2012"/>-->
             <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
             <property name="hibernate.hbm2ddl.auto" value="update"/>
             <property name="hibernate.show_sql" value="true"/>
